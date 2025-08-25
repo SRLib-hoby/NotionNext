@@ -84,7 +84,7 @@ export const MenuItemCollapse = props => {
                 className='
               py-2 px-14 cursor-pointer hover:bg-gray-100 dark:text-gray-400 dark:hover:text-white font-bold 
               dark:bg-black text-left justify-start text-gray-600 bg-gray-50 bg-opacity-20 dark:hover:bg-gray-600 tracking-widest transition-all duration-200'>
-                <SmartLink href={sUrl} target={'_self'}>
+                <SmartLink href={sUrl} target={'_blank'}>
                   <div>
                     <div
                       className={`${sLink?.icon ? sLink?.icon : 'fas fa-hashtag'} text-center w-3 mr-2 text-xs`}
